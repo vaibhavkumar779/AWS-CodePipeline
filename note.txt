@@ -1,0 +1,61 @@
+WHY CI CD ?
+    EARLY DETECTION OF ISSUES:
+        CI: With CI, code changes are automatically integrated into a shared repository several times a day. Automated tests are run on each integration, allowing for the early detection of issues, such as bugs or integration conflicts, before they escalate.
+
+    Faster Release Cycles:
+        CI/CD: The combination of CI and CD enables a continuous and automated delivery pipeline. This leads to faster release cycles, allowing teams to deliver new features, enhancements, and bug fixes to end-users quickly and regularly.
+
+    Reduced Manual Intervention:
+        CD: Continuous Delivery automates the deployment process, reducing the need for manual intervention. This minimizes human errors and streamlines the release process, making it more reliable and repeatable.
+
+    Consistent Environments:
+        CI/CD: CI/CD practices ensure that each code change is tested and deployed in consistent environments. This consistency helps identify issues related to environment-specific configurations early in the development process.
+
+    Improved Collaboration:
+        CI/CD: CI/CD encourages collaboration among development, testing, and operations teams. It promotes a culture of shared responsibility and transparency, fostering better communication and coordination throughout the software delivery lifecycle.
+
+    Rapid Feedback Loops:
+        CI: Automated tests in CI provide rapid feedback to developers. They receive immediate notification if their changes introduce issues, allowing for quick resolution. This rapid feedback loop accelerates the development process.
+
+    Enhanced Code Quality:
+        CI: The continuous integration process enforces coding standards and best practices. Automated testing ensures that code changes meet quality criteria, leading to overall improved code quality.
+
+    Easier Rollbacks:
+        CD: In the event of a deployment failure or the identification of a critical issue post-deployment, CD practices make it easier to rollback to a previous, stable version. This minimizes downtime and potential impact on users.
+
+    Scalability and Flexibility:
+        CI/CD: CI/CD practices are scalable and adaptable to various project sizes and complexities. They support the evolving needs of development teams, making it easier to scale applications and adapt to changing requirements.
+
+    Competitive Advantage:
+        CI/CD: Organizations that adopt CI/CD practices can respond to market demands more rapidly, gaining a competitive advantage. Faster delivery of features and improvements allows businesses to stay ahead in the fast-paced technology landscape.
+        
+KEY FEATURES OF AWS CODEPIPELINE:
+
+AWS CodePipeline is a fully managed CI/CD service that streamlines and automates the software release process.
+
+    Visual Workflow: CodePipeline provides a visual representation of your release process, allowing you to model, visualize, and automate the steps required to release your software.
+
+    Flexibility and Customization: It supports integration with a variety of AWS services and third-party tools, allowing for flexibility and customization of your CI/CD pipelines.
+
+    Multi-Stage Pipelines: CodePipeline supports multi-stage pipelines, allowing you to define different stages in your release process, such as source, build, test, and deployment.
+
+    Artifacts Management: The service seamlessly integrates with Amazon S3, enabling the storage and management of artifacts produced during the build process.
+
+    Integration with AWS Services: CodePipeline integrates with other AWS services like AWS CodeBuild, AWS CodeDeploy, and AWS Lambda, providing a comprehensive CI/CD solution within the AWS ecosystem.
+
+    Scalability: As a fully managed service, CodePipeline automatically scales to handle the varying load of your releases.
+ 
+ You can use CodePipeline to help you automatically build, test, and deploy your applications in the cloud. Specifically, you can:
+
+Automate your release processes: CodePipeline fully automates your release process from end to end, starting from your source repository through build, test, and deployment. You can prevent changes from moving through a pipeline by including a manual approval action in any stage except a Source stage. You can release when you want, in the way you want, on the systems of your choice, across one instance or multiple instances.
+
+Establish a consistent release process: Define a consistent set of steps for every code change. CodePipeline runs each stage of your release according to your criteria.
+
+Speed up delivery while improving quality: You can automate your release process to allow your developers to test and release code incrementally and speed up the release of new features to your customers.
+
+Use your favorite tools: You can incorporate your existing source, build, and deployment tools into your pipeline. For a full list of AWS services and third-party tools currently supported by CodePipeline, see Product and service integrations with CodePipeline.
+
+View progress at a glance: You can review real-time status of your pipelines, check the details of any alerts, retry failed stages or actions, view details about the source revisions used in the latest pipeline execution in each stage, and manually rerun any pipeline.
+
+View pipeline history details: You can view details about executions of a pipeline, including start and end times, run duration, and execution IDs.
+
